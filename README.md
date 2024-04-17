@@ -1,2 +1,1 @@
-# Nobody-s-Leaders-2
-Sim Settlements 2 Leaders Pack
+Nexus Mod Page: https://www.nexusmods.com/fallout4/mods/57783
