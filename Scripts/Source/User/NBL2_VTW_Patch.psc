@@ -1,9 +1,9 @@
-ScriptName NBL2_VTW_Patch Extends ScriptObject
+ScriptName NBL2_VTW_Patch Extends Actor
 
 Actor[] Property Habitants_List Auto Const
 
 Event OnInit()
-  Self.RegisterForRemoteEvent(Game.GetPlayer() as ScriptObject, "OnPlayerLoadGame")
+  Self.RegisterForRemoteEvent(Game.GetPlayer() as Actor, "OnPlayerLoadGame")
   Self.MainFunction()
 EndEvent
 

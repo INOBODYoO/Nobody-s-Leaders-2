@@ -1,10 +1,10 @@
-ScriptName NBL2_AddonScript Extends ScriptObject
+ScriptName NBL2_AddonScript Extends Actor
 
 Actor[] Property AllowedToMove_List Auto Const
 Actor[] Property NotAllowedToMove_List Auto Const
 
 Event OnInit()
-  Self.RegisterForRemoteEvent(Game.GetPlayer() as ScriptObject, "OnPlayerLoadGame")
+  Self.RegisterForRemoteEvent(Game.GetPlayer() as Actor, "OnPlayerLoadGame")
   Self.MainFunction()
 EndEvent
 

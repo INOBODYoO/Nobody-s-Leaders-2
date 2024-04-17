@@ -1,10 +1,10 @@
-ScriptName NBL2_QuestRestarter Extends ScriptObject
+ScriptName NBL2_QuestRestarter Extends Actor
 
 Quest Property AddonQuest Auto Const
 
 Event OnInit()
 
-  Self.RegisterForRemoteEvent(Game.GetPlayer() as ScriptObject, "OnPlayerLoadGame")
+  Self.RegisterForRemoteEvent(Game.GetPlayer() as Actor, "OnPlayerLoadGame")
   Debug.Notification("[Nobody's Leaders 2] Version 3.0 initiated!")
 
 EndEvent
