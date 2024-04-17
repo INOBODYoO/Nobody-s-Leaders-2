@@ -1,4 +1,4 @@
-Version 3.0:
+Version 3.0: [Unreleased | Work In Progress]
 
 - Optimized both NBL2 main and Vault-Tec Workshop Patch scripts.
 
